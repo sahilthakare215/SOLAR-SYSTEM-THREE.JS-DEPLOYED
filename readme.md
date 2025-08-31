@@ -1,8 +1,8 @@
 # 3D Solar System in THREE.js
 
-Welcome to the **3D Solar System** project, a dynamic and interactive simulation of our solar system created using THREE.js and the Vite framework. This project showcases various advanced features and effects to provide an immersive experience of the celestial bodies in our solar system. The project is fully created by Karol Fryc.
+Welcome to the **3D Solar System** project, a dynamic and interactive simulation of our solar system created using THREE.js and the Vite framework. This project showcases various advanced features and effects to provide an immersive experience of the celestial bodies in our solar system. The project is fully created by me.
 
-Overview available at: https://w21030911.nuwebspace.co.uk/graphics/assessment/
+
 
 ![Solar_System](images/solar_system.png)
 
@@ -66,11 +66,11 @@ Overview available at: https://w21030911.nuwebspace.co.uk/graphics/assessment/
 ## Installation and Setup
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/3d-solar-system.git
+    git clone https://github.com/sahilthakare215/SOLAR-SYSTEM-THREE.JS-DEPLOYED.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd 3d-solar-system
+    cd SOLAR-SYSTEM-THREE.JS-DEPLOYED
     ```
 3. Install dependencies:
     ```sh
@@ -80,13 +80,11 @@ Overview available at: https://w21030911.nuwebspace.co.uk/graphics/assessment/
     ```sh
     npm run dev
     ```
-5. Open your browser and navigate to `http://localhost:3000` to see the 3D Solar System in action.
+5. Open your browser and navigate to `http://localhost:5174` to see the 3D Solar System in action.
 
 ## Conclusion
 This project is a comprehensive representation of our solar system, bringing together realistic modeling, advanced visual effects, and interactive features. Explore the planets, their moons, and the vast asteroid belts, all from the comfort of your screen.
 
-## License
 
-This project is licensed under the [MIT License](./LICENSE).
 
 Feel free to contribute, suggest improvements, or use this project as a foundation for your own THREE.js experiments. Happy exploring!
