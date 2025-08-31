@@ -1,11 +1,14 @@
-export default {
+import { defineConfig } from 'vite';
+
+export default defineConfig({
     root: 'src/',
     publicDir: '../static/',
     base: './',
     server:
     {
         host: true, // Open to local network and display URL
-        open: !('SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env) // Open if it's not a CodeSandbox
+        open: !('SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env), // Open if it's not a CodeSandbox
+        port: 5174
     },
     build:
     {
@@ -13,4 +16,5 @@ export default {
         emptyOutDir: true, // Empty the folder first
         sourcemap: true // Add sourcemap
     },
-}
+    // Removed invalid optimizeDeps.include to fix error
+});
